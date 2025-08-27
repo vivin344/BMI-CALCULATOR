@@ -3,7 +3,7 @@ function calculateBMI() {
     const height = parseFloat(document.getElementById('height').value);
     if (weight > 0 && height > 0) {
         const bmi = weight / (height * height);
-        const resultText = `Your BMI is ${bmi.toFixed(2)} - ${getBMICategory(bmi)}`;
+        const resultText = `Your Body Mass Index is ${bmi.toFixed(2)} - ${getBMICategory(bmi)}`;
         document.getElementById('result').innerText = resultText;
     } else {
         alert('Please enter valid values for weight and height.');
