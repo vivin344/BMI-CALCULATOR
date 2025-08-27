@@ -11,8 +11,8 @@ function calculateBMI() {
 }
 
 function getBMICategory(bmi) {
-    if (bmi < 18.5) return 'Underweight';
-    else if (bmi < 24.9) return 'Normal weight';
-    else if (bmi < 29.9) return 'Overweight';
+    if (bmi < 18.5) return 'Under Weight';
+    else if (bmi < 24.9) return 'Normal Weight';
+    else if (bmi < 29.9) return 'Over weight';
     else return 'Obesity';
 }
